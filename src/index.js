@@ -1,7 +1,7 @@
-import React from "react";
-import ReactDOM from "react-dom";
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-import "./styles.css";
+import './styles.css';
 
 // function App() {
 //   return (
@@ -15,10 +15,10 @@ import "./styles.css";
 // const rootElement = document.getElementById("root");
 // ReactDOM.render(<App />, rootElement);
 
-const rootElement = document.getElementById("root");
+const rootElement = document.getElementById('root');
 const props = {
-  className: "App",
-  children: "Hello World----***"
+  className: 'App',
+  children: 'Hello World!'
 };
 const element = <div {...props} />;
 ReactDOM.render(element, rootElement);
